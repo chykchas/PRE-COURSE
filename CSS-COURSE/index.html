@@ -6,85 +6,113 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <table cellspacing="15">
-      <tr>
-        <td>
-          <img src="Myself.jpg" width="200px" alt="My photo" />
-        </td>
-        <td>
+    <div class="container">
+      <div class="info">
+        <img src="Myself.jpg" alt="My photo" class="avatar" />
+
+        <div class="info-text">
           <h1>Nik Efr</h1>
-          <p>
-            <em>Beginner in <strong>HTML</strong></em>
-          </p>
+          <p>Beginner in <strong>front</strong></p>
           <p>One more try to front developer</p>
-        </td>
-      </tr>
-    </table>
-    <hr />
 
-    <h2>My contact</h2>
-    <ul type="square">
-      <li>
-        <a href="https://t.me/chykchas" target="_blank" referrerpolicy="no-referrero-roshen">My telegram</a>
-      </li>
-    </ul>
+          <h4>My social</h4>
+          <a href="https://t.me/chykchas" target="_blank" referrerpolicy="no-referrero-roshen">Telegram</a>
+        </div>
+      </div>
 
-    <hr />
+      <div class="card bg-yellow">
+        <h2>My hobbie</h2>
+        <ol class="list">
+          <li>Gamer</li>
+          <li>Science lectures</li>
+          <li>Traveling</li>
+        </ol>
+      </div>
 
-    <h2>My hobbie</h2>
-    <ol type="I">
-      <li>Gamer</li>
-      <li>Science lectures</li>
-      <li>Traveling</li>
-    </ol>
+      <div class="card bg-green">
+        <h2>Expirience</h2>
+        <table class="table">
+          <tr>
+            <td>None 1</td>
+            <td>None 1</td>
+            <td>2021</td>
+          </tr>
+          <tr>
+            <td>No 2</td>
+            <td>No 2</td>
+            <td>2022</td>
+          </tr>
+          <tr>
+            <td>Net 3</td>
+            <td>Net 3</td>
+            <td>2023</td>
+          </tr>
+          <tr>
+            <td>Youtube 4</td>
+            <td>Youtube 4</td>
+            <td>2024</td>
+          </tr>
+        </table>
+      </div>
 
-    <hr />
+      <div class="card bg-red">
+        <h2>Interesting YouTube courses</h2>
+        <ul class="link-list">
+          <li>
+            <a
+              href="https://youtube.com/playlist?list=PLqKQF2ojwm3micXM_xZnByHa9jEsTWRGs&si=KVYNh5m91AMTMgQr"
+              target="_blank"
+            >
+              Курс за 2 минуты
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://youtube.com/playlist?list=PLqKQF2ojwm3nW-cQeSER79xdpK3vL5c-g&si=to5FroTeLdXfIsl8"
+              target="_blank"
+            >
+              TypeScript course</a
+            >
+          </li>
+        </ul>
+      </div>
 
-    <h2>Expirience</h2>
-    <table>
-      <tr>
-        <th>Column 1</th>
-        <th>Column 2</th>
-        <th>Column 3</th>
-      </tr>
-      <tr>
-        <td>Nic</td>
-        <td>Nie v chuj</td>
-        <td>nie mam</td>
-      </tr>
-      <tr>
-        <td>cell 1</td>
-        <td>cell 2</td>
-        <td>cell 3</td>
-      </tr>
-    </table>
+      <div class="contact">
+        <h2>Write to me</h2>
 
-    <hr />
+        <form action="/">
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Your name:</label>
+              <input type="text" id="name" placeholder="write your name 你他媽就是個混蛋" />
+            </div>
 
-    <h2>Interesting YouTube courses</h2>
-    <a href="youtube.html" target="_blank">watch it</a>
+            <div class="form-group">
+              <label for="email">Your email:</label>
+              <input type="email" id="email" placeholder="write your email 你他媽就是個混蛋" />
+            </div>
+          </div>
 
-    <hr />
+          <div class="form-group">
+            <label for="text">Your mail</label>
 
-    <h2>Write to me</h2>
-    <form action="/">
-      <label for="name">Your name:</label>
-      <input type="text" id="name" placeholder="write your name 你他媽就是個混蛋" />
+            <textarea name="" id="text" cols="15" rows="2"></textarea>
+          </div>
 
-      <br />
+          <input class="btn" type="submit" />
+        </form>
+      </div>
 
-      <label for="email">Your Email:</label>
-      <input type="email" id="email" placeholder="write your email 你他媽就是個混蛋" />
+      <div class="position">
+        <div class="box"></div>
+      </div>
 
-      <br />
-
-      <label for="text">Your mail</label>
-      <br />
-      <textarea name="" id="text" cols="15" rows="2"></textarea>
-
-      <br />
-
-      <input type="submit" />
-    </form>
+      <!-- <div class="box-model">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div> -->
+    </div>
   </body>
 </html>
